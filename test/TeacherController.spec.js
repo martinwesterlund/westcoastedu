@@ -2,7 +2,7 @@ import chai from "chai";
 import TeacherController from "../controllers/TeacherController.js";
 import TeacherModel from "../models/TeacherModel.js";
 
-describe("TeacherListController.js", () => {
+describe("TeacherController.js", () => {
   let controller = new TeacherController(new TeacherModel());
 
   describe("Instantiation", () => {

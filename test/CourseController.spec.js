@@ -2,7 +2,7 @@ import chai from "chai";
 import CourseController from "../controllers/CourseController.js";
 import CourseModel from "../models/CourseModel.js";
 
-describe("CourseListController.js", () => {
+describe("CourseController.js", () => {
   let controller = new CourseController(new CourseModel());
 
   describe("Instantiation", () => {
